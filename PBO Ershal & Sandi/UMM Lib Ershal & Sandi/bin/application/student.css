@@ -1,0 +1,20 @@
+.shadow{
+	-fx-effect:dropshadow(three-pass-box, rgba(0,0,0,0.5), 6,0,0,0); 
+}
+
+.linear-gradient-horizontal {
+    -fx-background-color: linear-gradient(to right, #08203E, #557c93);
+}
+
+.pinjam-kembalikan-button {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: black;
+    -fx-font-size: 16px;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.pinjam-kembalikan-button:hover {
+    -fx-background-color: #d3d1e1;
+}

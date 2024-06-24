@@ -1,0 +1,30 @@
+.root {
+    -fx-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -fx-background-color: #f6f8fa;
+}
+
+.heading {
+    -fx-font-size: 24px;
+    -fx-text-fill: #333;
+}
+
+.login-button {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: black;
+    -fx-font-size: 16px;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.login-button:hover {
+    -fx-background-color: #d3d1e1;
+}
+
+.message-label {
+    -fx-text-fill: red;
+}
+
+.linear-gradient-horizontal {
+    -fx-background-color: linear-gradient(to right, #08203E, #557c93);
+}
